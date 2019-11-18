@@ -1,10 +1,11 @@
 /**
- * String to Integer Integer StringToNum(String s) s="123" 123
+ * String to Integer Integer StringToNum(String s) in: s="123" out: => 123
  * 
- * s=['1','2','3'] s[0] ='1', s=[1]='2',s=[2]='3'
+ * s=['1','2','3'] 1) s[0] ='1' 2) s=[1]='2' 3) s=[2]='3'
  * 
- * for(int i=0; i<s.length; i++){ println(s[i])}; '1'-'0'=49-48= 1
- * '2'-'0'=50-48= 2 '3'-'0'=51-48= 3
+ * for(int i=0; i<s.length; i++){ println(s[i]) };
+ * 
+ * ASCII Code: '1'-'0'=49-48= 1 '2'-'0'=50-48= 2 '3'-'0'=51-48= 3
  */
 
 class Main {
